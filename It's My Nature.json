@@ -1,0 +1,848 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 245,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "e203ef3a-9856-4698-95de-1ca4602e11ab",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "It's My Nature",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "fBO69SxvkjfE3j38PTCOQz8J7nw1"
+    ],
+    "authorUsernames": [
+      "Yourself (no username)"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/DungeonTileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonTileset.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Tilemap/f469d4ca0e9db04881240e083c902868979588fa9b36e7017c19f4f111b6189c_DungeonTileset.png",
+          "name": "DungeonTileset.png"
+        }
+      },
+      {
+        "file": "Assets/Flooring Tilesets/Flooring Tilesets/Stone Tiles/sprite_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Flooring Tilesets\\Flooring Tilesets\\Stone Tiles\\sprite_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_last1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_last1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_door.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_window2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_window2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_vertical4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_vertical4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_twice2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_twice2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_corner3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_corner3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_corner2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_corner2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_vertical3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_vertical3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Knight/Knight/KnightRun_strip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Knight\\Knight\\KnightRun_strip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Knight/Knight/KnightIdle_strip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Knight\\Knight\\KnightIdle_strip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Knight/Knight/KnightAttack_strip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Knight\\Knight\\KnightAttack_strip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Knight/Knight/noBKG_KnightRun_strip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Knight\\Knight\\noBKG_KnightRun_strip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Adventurer.png\"}",
+        "name": "Adventurer",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Adventurer2.png\"}",
+        "name": "Adventurer2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Adventurer3.png\"}",
+        "name": "Adventurer3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Adventurer4.png\"}",
+        "name": "Adventurer4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Adventurer5.png\"}",
+        "name": "Adventurer5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Adventurer6.png\"}",
+        "name": "Adventurer6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Adventurer7.png\"}",
+        "name": "Adventurer7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Adventurer8.png\"}",
+        "name": "Adventurer8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Adventurer23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Adventurer23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/UI BARS/magic_bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI BARS\\magic_bar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_UI BARS_magic_bar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\UI BARS\\magic_bar",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
