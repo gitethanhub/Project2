@@ -826,6 +826,30 @@
         "name": "Assets\\UI BARS\\magic_bar",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Assets/Castle Walls/Castle Walls/Castle_twice1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Castle Walls\\Castle Walls\\Castle_twice1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Monster_Creatures_Fantasy(Version 1.3)\\Monster_Creatures_Fantasy(Version 1.3)\\Mushroom\\Attack3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

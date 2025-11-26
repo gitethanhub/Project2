@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703311586,
+    "zoomFactor": 0.624453782660021,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -89,40 +89,6 @@
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "a6c169b3-f5e0-4468-b6db-08b262792e82",
-      "width": 288,
-      "x": 481,
-      "y": 209,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "ae31d30d-e59e-42d3-a35a-fb5692ce2f4e",
-      "width": 288,
-      "x": 481,
-      "y": 401,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
       "name": "Dungeon_Door",
       "persistentUuid": "27d5110b-55eb-4106-895b-5dc60b0120d9",
       "width": 64,
@@ -169,206 +135,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "60c02bd4-088c-4b1e-9f1e-38d99b0ed0b8",
-      "width": 576,
-      "x": 353,
-      "y": 617,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 88,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "e5e112c6-2446-449e-8f7e-938a3b962e56",
-      "width": 32,
-      "x": 321,
-      "y": 529,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split2",
-      "persistentUuid": "9843ed65-2767-4a01-a801-9d58cf685b37",
-      "width": 0,
-      "x": 913,
-      "y": 593,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 216,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "96adcf81-61f8-4f07-9f95-1be0cbe3e5f9",
-      "width": 32,
-      "x": 913,
-      "y": 377,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "da2621bb-adcb-4ad2-85f3-8cb97daeb012",
-      "width": 96,
-      "x": 945,
-      "y": 593,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "8938e745-ce53-4476-8dda-be2e997cf70f",
-      "width": 0,
-      "x": 1041,
-      "y": 593,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Normal1",
-      "persistentUuid": "4af0fec5-6446-4bb4-bab3-651e51a69d36",
-      "width": 0,
-      "x": 321,
-      "y": 617,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Normal2",
-      "persistentUuid": "a709a720-de53-46d6-8279-16a65fcacf8a",
-      "width": 64,
-      "x": 1073,
-      "y": 593,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall2",
-      "persistentUuid": "688b3003-4d9e-4f2a-841a-8fb72ade048c",
-      "width": 80,
-      "x": 1073,
-      "y": 481,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Normal1",
-      "persistentUuid": "358cf559-cd86-4d48-b3aa-7f6cacf86678",
-      "width": 0,
-      "x": 1161,
-      "y": 593,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "de9c56ae-e265-4bdd-bfba-33a18e553854",
-      "width": 49,
-      "x": 1193,
-      "y": 593,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 88,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "d2adcaea-97fe-4258-a113-2251e23eb49c",
-      "width": 32,
-      "x": 1161,
-      "y": 505,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -403,63 +169,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "41a5ced0-e3dc-4243-a3e6-01691e9b25f7",
-      "width": 24,
-      "x": 1241,
-      "y": 593,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split2",
-      "persistentUuid": "a864a208-bbae-43a3-963d-3d5e44462a72",
-      "width": 0,
-      "x": 1265,
-      "y": 593,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 88,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "7c1dbe97-c86f-4f4c-840d-9a124cf9e670",
-      "width": 32,
-      "x": 1265,
-      "y": 505,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 603,
       "keepRatio": true,
       "layer": "",
       "name": "Vertical_Wall1",
       "persistentUuid": "71b55232-de64-4ee0-b580-e2a2b693d39e",
-      "width": 0,
+      "width": 32,
       "x": 1265,
-      "y": 625,
+      "y": 54,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -474,7 +191,7 @@
       "layer": "",
       "name": "Repeating_Corners_Normal1",
       "persistentUuid": "7115546e-28f8-47f0-b003-72eb3723f9c7",
-      "width": 32,
+      "width": 15,
       "x": 1265,
       "y": 657,
       "zOrder": 29,
@@ -501,56 +218,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split1",
-      "persistentUuid": "64286f9b-96d4-4202-a256-65a86d58178f",
-      "width": 32,
-      "x": 1265,
-      "y": 473,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 24,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "c0394bee-068d-4724-bf5a-eff997c77cdf",
-      "width": 32,
-      "x": 1265,
-      "y": 449,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split2",
-      "persistentUuid": "4243bb2e-9fa2-408c-a3d4-5732ade6cee0",
-      "width": 0,
-      "x": 1265,
-      "y": 417,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -561,272 +228,6 @@
       "x": 1281,
       "y": 393,
       "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall2",
-      "persistentUuid": "80016989-ef21-4c0f-aeef-2d063937d9cf",
-      "width": 0,
-      "x": 1265,
-      "y": 417,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "52e7aa3f-ede1-4c65-8211-b51d1829022d",
-      "width": 32,
-      "x": 1265,
-      "y": 353,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split2",
-      "persistentUuid": "6eba7c8f-ab98-460f-bccf-e99f51a809a8",
-      "width": 0,
-      "x": 1265,
-      "y": 321,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "0541f876-76ff-4466-a2ac-b5faf98ffcd8",
-      "width": 32,
-      "x": 1265,
-      "y": 257,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split2",
-      "persistentUuid": "7456288d-868a-476d-a06e-503a1793526e",
-      "width": 0,
-      "x": 1265,
-      "y": 225,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "51c49aaf-62cd-4d89-a0bf-1794be8dc4dd",
-      "width": 32,
-      "x": 1265,
-      "y": 161,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split2",
-      "persistentUuid": "15173842-bbec-4939-8831-4a168289ea54",
-      "width": 0,
-      "x": 1265,
-      "y": 129,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "09d26052-02c2-47c5-b881-641f5c5aba01",
-      "width": 32,
-      "x": 1265,
-      "y": 65,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split2",
-      "persistentUuid": "21734794-0be4-4a72-839f-68d65562a4b5",
-      "width": 0,
-      "x": 1265,
-      "y": 33,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 48,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "4d224001-2b0a-47c6-a248-11e966d0422b",
-      "width": 32,
-      "x": 1265,
-      "y": -15,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Split1",
-      "persistentUuid": "d8d7c3d2-341f-411f-8f78-1a468897a96e",
-      "width": 0,
-      "x": 1161,
-      "y": 473,
-      "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Dungeon_Door",
-      "persistentUuid": "976bdc0d-1ee8-4d17-a87e-61d2631559ca",
-      "width": 64,
-      "x": 1193,
-      "y": 441,
-      "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "605f5854-d6b4-4504-8639-c17088e04700",
-      "width": 1,
-      "x": 1257,
-      "y": 473,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "97ea7115-f587-4648-bf25-60a5580c373c",
-      "width": 8,
-      "x": 1257,
-      "y": 473,
-      "zOrder": 40,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Normal2",
-      "persistentUuid": "ac39cc4e-e130-4274-a395-604fae22be8e",
-      "width": 64,
-      "x": 769,
-      "y": 401,
-      "zOrder": 41,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 104,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall2",
-      "persistentUuid": "fd65dd05-2162-4892-8293-a1d6cb291402",
-      "width": 80,
-      "x": 769,
-      "y": 297,
-      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -852,99 +253,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 88,
+      "height": 657,
       "keepRatio": true,
       "layer": "",
       "name": "Vertical_Wall1",
       "persistentUuid": "80e1f11e-ed17-4898-bb4f-d5b5716c1b2c",
       "width": 32,
       "x": 1,
-      "y": 569,
+      "y": 0,
       "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Wall",
-      "persistentUuid": "09babfc4-6462-4ba2-8374-f3c6826875cc",
-      "width": 176,
-      "x": 73,
-      "y": 617,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Normal1",
-      "persistentUuid": "9fb2ccbf-31c3-48d1-9601-62604fe8e165",
-      "width": 0,
-      "x": 41,
-      "y": 617,
-      "zOrder": 47,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 296,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "db98697a-e65c-43c2-8a2b-4fa0b102baa5",
-      "width": 32,
-      "x": 41,
-      "y": 321,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Repeating_Corners_Normal1",
-      "persistentUuid": "45cebd6d-d7ed-4f59-a2b5-36351234fa04",
-      "width": 16,
-      "x": 249,
-      "y": 617,
-      "zOrder": 49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 144,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Vertical_Wall1",
-      "persistentUuid": "e613325b-27d7-4cd3-bc2c-43767815faca",
-      "width": 32,
-      "x": 249,
-      "y": 473,
-      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -958,9 +275,108 @@
       "name": "Adventurer",
       "persistentUuid": "350ad69b-f010-4c49-9f01-b2b381909b76",
       "width": 0,
-      "x": 561,
-      "y": 617,
+      "x": 404,
+      "y": 419,
       "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Repeating_Corners_Split1",
+      "persistentUuid": "113587fc-9878-407b-a809-4c82fa929b24",
+      "width": 63,
+      "x": 1,
+      "y": 0,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Repeating_Wall",
+      "persistentUuid": "f4a3a4d7-0bfe-4d69-b730-acd75a13455f",
+      "width": 1201,
+      "x": 64,
+      "y": 0,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Repeating_Corners_Split1",
+      "persistentUuid": "997a249f-ac2f-4e8d-9cab-23347c6b8d03",
+      "width": 15,
+      "x": 1265,
+      "y": 1,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Vertical_Wall2",
+      "persistentUuid": "c802b1c7-37c7-4ad4-ad2a-124330185cce",
+      "width": 0,
+      "x": 459,
+      "y": 490,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Vertical_Wall2",
+      "persistentUuid": "f2fe9f26-351e-4807-a81f-b6b9c4958326",
+      "width": 0,
+      "x": 467,
+      "y": 480,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Vertical_Wall2",
+      "persistentUuid": "eefa9533-fa77-4a8c-8429-ef5f816fcc7b",
+      "width": 0,
+      "x": 451,
+      "y": 485,
+      "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -972,11 +388,44 @@
       "keepRatio": true,
       "layer": "",
       "name": "Mana_Core",
-      "persistentUuid": "9f8e0a3b-3291-4ef2-941b-eb4a2318a05c",
+      "persistentUuid": "19e78556-99a6-4cf4-9a51-3e47b5473576",
       "width": 0,
-      "x": 623,
-      "y": 319,
-      "zOrder": 52,
+      "x": 622,
+      "y": 307,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 27,
+      "keepRatio": true,
+      "layer": "",
+      "name": "AttackPoint",
+      "persistentUuid": "70360422-8008-451c-b32f-6e6832b7609a",
+      "width": 26,
+      "x": 591,
+      "y": 338,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Mushrooom_Monster",
+      "persistentUuid": "75c82a57-8f1d-44bf-836f-e66c4d19cecd",
+      "width": 0,
+      "x": 466,
+      "y": 398,
+      "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1085,7 +534,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Repeating_Corners_Split2",
-      "texture": "Assets\\Castle Walls\\Castle Walls\\Castle_twice2.png",
+      "texture": "Assets\\Castle Walls\\Castle Walls\\Castle_twice1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -1159,7 +608,18 @@
       "name": "Adventurer",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CoreDamage",
+          "type": "number",
+          "value": 10
+        },
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 100
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -1169,10 +629,10 @@
           "angularMaxSpeed": 180,
           "cellHeight": 20,
           "cellWidth": 20,
-          "extraBorder": 0,
+          "extraBorder": 10,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
+          "maxSpeed": 100,
           "name": "Pathfinding",
           "rotateObject": true,
           "smoothingMaxCellGap": 1,
@@ -1185,7 +645,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -1486,7 +946,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -2039,7 +1499,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -3204,7 +2664,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -3940,7 +3400,13 @@
       "name": "Mana_Core",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3994,6 +3460,105 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "AttackPoint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mushrooom_Monster",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "AttackRange",
+          "type": "number",
+          "value": 6
+        },
+        {
+          "name": "Damage_Per_Tick",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "InCombat",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 58,
+                        "y": 40
+                      },
+                      {
+                        "x": 83,
+                        "y": 40
+                      },
+                      {
+                        "x": 83,
+                        "y": 77
+                      },
+                      {
+                        "x": 58,
+                        "y": 77
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4034,10 +3599,583 @@
       },
       {
         "objectName": "Mana_Core"
+      },
+      {
+        "objectName": "AttackPoint"
+      },
+      {
+        "objectName": "Mushrooom_Monster"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Globals",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "AttackPoint"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Adventuerers",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Pathfinding Handling"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Adventurer",
+            "Pathfinding",
+            "",
+            "AttackPoint.X()",
+            "AttackPoint.Y()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"PathUpdateTimer\"",
+            ">",
+            "0.3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"PathUpdateTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Adventurer",
+            "Pathfinding",
+            "",
+            "AttackPoint.X()",
+            "AttackPoint.Y()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Animation Handling"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::Speed"
+          },
+          "parameters": [
+            "Adventurer",
+            "Pathfinding",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Adventurer",
+            "Animation",
+            "!=",
+            "\"Run\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Adventurer",
+            "Animation",
+            "=",
+            "\"Run\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::DestinationReached"
+          },
+          "parameters": [
+            "Adventurer",
+            "Pathfinding"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::Speed"
+          },
+          "parameters": [
+            "Adventurer",
+            "Pathfinding",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Adventurer",
+            "Animation",
+            "=",
+            "\"Attack\""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Mana Core",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Time Differential for Core Damage"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::DestinationReached"
+          },
+          "parameters": [
+            "Adventurer",
+            "Pathfinding"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Adventurer",
+            "\"AttackTimer\"",
+            ">",
+            "0.5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Adventurer",
+            "\"AttackTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Mana_Core",
+            "Health",
+            "-",
+            "Adventurer.CoreDamage"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Destruction Event Handling"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Mana_Core",
+            "Health",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Adventurer",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::Speed"
+          },
+          "parameters": [
+            "Adventurer",
+            "Pathfinding",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Mana_Core"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Mana_Core",
+            "Health",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Mana_Core",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Adventurer",
+            "\"AttackTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Monsters",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Logic For Mushroom Monster (Copy and paste into different monster logics)"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "InCombat",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "Adventurer",
+            "Mushrooom_Monster.AttackRange",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "\"Attack_Timer\"",
+            ">",
+            "0.5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "InCombat",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "Animation",
+            "=",
+            "\"Attack\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Adventurer",
+            "Health",
+            "-",
+            "Mushrooom_Monster.Damage_Per_Tick"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "\"Attack_Timer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Adventurer",
+            "Mushrooom_Monster",
+            "Mushrooom_Monster.AttackRange",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "InCombat",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "InCombat",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Mushrooom_Monster",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
