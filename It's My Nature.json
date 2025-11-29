@@ -850,6 +850,26 @@
         "name": "Idle",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/mana_destroyed.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":1.52,\\\"sustain\\\":0.04,\\\"sustainPunch\\\":20,\\\"decay\\\":0,\\\"tremoloDepth\\\":93,\\\"tremoloFrequency\\\":23,\\\"frequency\\\":2600,\\\"frequencySweep\\\":2800,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":47,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":9400,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":5100,\\\"highPassCutoffSweep\\\":5100,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"mana_destroyed\"}}",
+        "name": "mana_destroyed",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mana_hit.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Hit/hurt 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.54,\\\"sustain\\\":0,\\\"sustainPunch\\\":90,\\\"decay\\\":0.15,\\\"tremoloDepth\\\":12,\\\"tremoloFrequency\\\":159,\\\"frequency\\\":1000,\\\"frequencySweep\\\":-2300,\\\"frequencyDeltaSweep\\\":500,\\\"repeatFrequency\\\":0.7000000000000001,\\\"frequencyJump1Onset\\\":30,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":80,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":0,\\\"squareDuty\\\":45,\\\"squareDutySweep\\\":25,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":-2,\\\"bitCrush\\\":15,\\\"bitCrushSweep\\\":-1,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":-17100,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":2400,\\\"compression\\\":1.2000000000000002,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"mana_hit\"},\"localFilePath\":\"assets/mana_hit.wav\"}",
+        "name": "mana_hit",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
