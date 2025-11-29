@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.84164281253734,
+    "zoomFactor": 1.4307927813134769,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -70,8 +70,8 @@
       "name": "Dungeon_Floor",
       "persistentUuid": "3491e965-5487-4046-96a6-920d3d65c6e7",
       "width": 0,
-      "x": 1,
-      "y": -15,
+      "x": 6,
+      "y": -12,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [
@@ -275,12 +275,18 @@
       "name": "Adventurer",
       "persistentUuid": "350ad69b-f010-4c49-9f01-b2b381909b76",
       "width": 0,
-      "x": 404,
-      "y": 419,
+      "x": 397,
+      "y": 413,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "CoreDamage",
+          "type": "number",
+          "value": 10
+        }
+      ]
     },
     {
       "angle": 0,
@@ -390,8 +396,8 @@
       "name": "Mana_Core",
       "persistentUuid": "19e78556-99a6-4cf4-9a51-3e47b5473576",
       "width": 0,
-      "x": 622,
-      "y": 307,
+      "x": 992,
+      "y": 314,
       "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
@@ -401,14 +407,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 27,
+      "height": 20,
       "keepRatio": true,
       "layer": "",
       "name": "AttackPoint",
       "persistentUuid": "70360422-8008-451c-b32f-6e6832b7609a",
-      "width": 26,
-      "x": 591,
-      "y": 338,
+      "width": 20,
+      "x": 987,
+      "y": 323,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
