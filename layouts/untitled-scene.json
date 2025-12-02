@@ -13,14 +13,12 @@
     "gridType": "rectangular",
     "gridWidth": 8,
     "gridHeight": 8,
-    "gridDepth": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
-    "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8993607583667328,
+    "zoomFactor": 0.4194339782759402,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -118,8 +116,8 @@
       "name": "Adv",
       "persistentUuid": "1e19166f-9740-4c66-aba1-f87be9b8f0ac",
       "width": 32,
-      "x": 640,
-      "y": 587,
+      "x": 311,
+      "y": 223,
       "zOrder": 999,
       "numberProperties": [],
       "stringProperties": [],
@@ -134,8 +132,8 @@
       "name": "Walls",
       "persistentUuid": "db39e9c9-cf04-472f-a8cc-d934216cedd4",
       "width": 0,
-      "x": -9,
-      "y": -14,
+      "x": -8,
+      "y": -15,
       "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [
@@ -626,7 +624,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 208,
+      "height": 209,
       "keepRatio": true,
       "layer": "",
       "name": "ID_PathBlocker",
@@ -2498,13 +2496,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "allowDiagonals": false,
           "cellHeight": 8,
           "cellWidth": 8,
           "extraBorder": 0,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -4181,16 +4179,16 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 0,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 0,
+          "impassable": true
         },
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -4277,6 +4275,33 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Assets\\SoundEffects\\batte_music.mp3",
+            "yes",
+            "35",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
@@ -4310,6 +4335,18 @@
             "ManaValue",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Assets\\SoundEffects\\mana_generate.wav",
+            "",
+            "30",
+            ""
           ]
         },
         {
@@ -5221,6 +5258,18 @@
             "=",
             "999"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Assets\\SoundEffects\\Click_Sound.wav",
+            "",
+            "25",
+            ""
+          ]
         }
       ]
     },
@@ -5327,6 +5376,18 @@
             "MonsterSelected",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Assets\\SoundEffects\\drop_sound.wav",
+            "",
+            "25",
+            ""
           ]
         }
       ]
@@ -5445,7 +5506,6 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -5499,7 +5559,6 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
