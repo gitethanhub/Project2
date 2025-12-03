@@ -116,7 +116,7 @@
       "name": "Adv",
       "persistentUuid": "1e19166f-9740-4c66-aba1-f87be9b8f0ac",
       "width": 32,
-      "x": 321,
+      "x": 348,
       "y": 74,
       "zOrder": 999,
       "numberProperties": [],
@@ -4949,6 +4949,18 @@
           "parameters": [
             "",
             "\"Lose Screen\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Assets\\SoundEffects\\mana_destoryed.wav",
+            "",
+            "10",
             ""
           ]
         }

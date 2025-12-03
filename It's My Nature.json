@@ -1799,7 +1799,7 @@
         "metadata": "",
         "name": "Assets\\SoundEffects\\mana_generate.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": false
       },
@@ -1847,17 +1847,6 @@
         }
       },
       {
-        "file": "assets/Kenney Mini.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "file": "assets/Roboto-Regular.ttf",
         "kind": "font",
         "metadata": "",
@@ -1874,7 +1863,7 @@
         "metadata": "",
         "name": "Assets\\SoundEffects\\credits_music.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": false
       },
@@ -1987,6 +1976,16 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite10",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/SoundEffects/mana_destoryed.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\SoundEffects\\mana_destoryed.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
