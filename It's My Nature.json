@@ -1813,6 +1813,13 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ee257a8f274628d7589d132e8e3f4fc5f16792b15f7c788e77f70f6d3c8e9b3d_Eater-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "Assets/Fonts/Eater-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Assets\\Fonts\\Eater-Regular.ttf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
