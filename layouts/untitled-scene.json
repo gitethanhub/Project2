@@ -116,8 +116,8 @@
       "name": "Adv",
       "persistentUuid": "1e19166f-9740-4c66-aba1-f87be9b8f0ac",
       "width": 32,
-      "x": 311,
-      "y": 223,
+      "x": 399,
+      "y": 72,
       "zOrder": 999,
       "numberProperties": [],
       "stringProperties": [],
@@ -4903,7 +4903,18 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Lose Screen\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",

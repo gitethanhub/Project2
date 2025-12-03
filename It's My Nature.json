@@ -1804,17 +1804,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Eater-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "ee257a8f274628d7589d132e8e3f4fc5f16792b15f7c788e77f70f6d3c8e9b3d_Eater-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ee257a8f274628d7589d132e8e3f4fc5f16792b15f7c788e77f70f6d3c8e9b3d_Eater-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "file": "Assets/Fonts/Eater-Regular.ttf",
         "kind": "font",
         "metadata": "",
@@ -1849,6 +1838,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tutorial_scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lose-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits-screen"
     }
   ],
   "externalEvents": [],
