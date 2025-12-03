@@ -1728,17 +1728,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/VT323-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "file": "assets/Red Button With Stone Frame_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -1772,17 +1761,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5a9c6130f5e1b226dde18e673aaac546a54ee35fc68aedd4aab998b93ed9fa1d_Red Button With Stone Frame_Pressed.png",
           "name": "Red Button With Stone Frame_Pressed.png"
-        }
-      },
-      {
-        "file": "assets/Roboto-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Roboto-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
-          "name": "Roboto-Regular.ttf"
         }
       },
       {
@@ -1826,18 +1804,15 @@
         "userAdded": false
       },
       {
-        "file": "Assets/Fonts/Roboto-Regular.ttf",
+        "file": "assets/Eater-Regular.ttf",
         "kind": "font",
         "metadata": "",
-        "name": "Assets\\Fonts\\Roboto-Regular.ttf",
-        "userAdded": false
-      },
-      {
-        "file": "Assets/Fonts/VT323-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Assets\\Fonts\\VT323-Regular.ttf",
-        "userAdded": false
+        "name": "ee257a8f274628d7589d132e8e3f4fc5f16792b15f7c788e77f70f6d3c8e9b3d_Eater-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ee257a8f274628d7589d132e8e3f4fc5f16792b15f7c788e77f70f6d3c8e9b3d_Eater-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

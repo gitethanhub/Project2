@@ -4339,23 +4339,42 @@
         },
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Assets\\SoundEffects\\mana_generate.wav",
-            "",
-            "30",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
             "",
             "\"ManaTimer\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ManaValue",
+                "<",
+                "GlobalVariable(MaxMana)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Assets\\SoundEffects\\mana_generate.wav",
+                "",
+                "30",
+                ""
+              ]
+            }
           ]
         }
       ]
