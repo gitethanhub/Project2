@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Credits_32Screen",
   "name": "Credits Screen",
-  "r": 209,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,18 +18,376 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.7130377630690404,
     "windowMask": false,
     "selectedLayer": ""
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 90,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CreditsTitleText",
+      "persistentUuid": "db5937ea-8375-4b5a-9257-f84c8d7d0099",
+      "width": 564,
+      "x": -5,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 202,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RolesText",
+      "persistentUuid": "09e25441-048d-4dcb-a324-2795bf08409e",
+      "width": 379,
+      "x": 6,
+      "y": 85,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 412,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SoundText",
+      "persistentUuid": "38cd9a45-5dc9-4e50-899b-9207c55ac788",
+      "width": 905,
+      "x": 5,
+      "y": 292,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "QuitButton",
+      "persistentUuid": "ace76145-141a-485f-93d7-16c393f16041",
+      "width": 0,
+      "x": 898,
+      "y": 579,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "CreditsTitleText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "outline_effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "208;2;27"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": " --- Credits ---\n\n",
+      "font": "Assets\\Fonts\\Kenney Mini.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "126;211;33",
+        "outlineThickness": 5,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "65;117;5",
+        "shadowDistance": 10,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": " --- Credits ---\n\n",
+        "font": "Assets\\Fonts\\Kenney Mini.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "RolesText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "/// Roles ///\nMain-Coder - Ernie\nVisual - Ernie\nLevel Desgin - Ernie\nSound - Ethan\nStoryboard - Ethan\n",
+      "font": "Assets\\Fonts\\Kenney Mini.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "/// Roles ///\nMain-Coder - Ernie\nVisual - Ernie\nLevel Desgin - Ernie\nSound - Ethan\nStoryboard - Ethan\n",
+        "font": "Assets\\Fonts\\Kenney Mini.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SoundText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "/// Sound Credits ///\n\nbatte_music.mp3: League of Legends Kindred Login Screen Theme REMIX | Neji4real -  Neji4real Instrumentals \n\ntutorial_music.mp3: Sunrise in Paris - Dan Henig\n\ncredits_music.mp3:  Better Days - LAKEY INSPIRED\n\nOther Sound Effects - Made with Jfxr",
+      "font": "Assets\\Fonts\\Kenney Mini.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "/// Sound Credits ///\n\nbatte_music.mp3: League of Legends Kindred Login Screen Theme REMIX | Neji4real -  Neji4real Instrumentals \n\ntutorial_music.mp3: Sunrise in Paris - Dan Henig\n\ncredits_music.mp3:  Better Days - LAKEY INSPIRED\n\nOther Sound Effects - Made with Jfxr",
+        "font": "Assets\\Fonts\\Kenney Mini.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
+      "name": "QuitButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Red Button With Stone Frame",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2,
+        "LabelText": "Quit"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "CreditsTitleText"
+      },
+      {
+        "objectName": "RolesText"
+      },
+      {
+        "objectName": "SoundText"
+      },
+      {
+        "objectName": "QuitButton"
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Music"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Assets\\SoundEffects\\credits_music.mp3",
+            "yes",
+            "30",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "button"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+          },
+          "parameters": [
+            "QuitButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Assets\\SoundEffects\\Click_Sound.wav",
+            "",
+            "15",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "QuitButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -96,5 +454,30 @@
       ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
 }

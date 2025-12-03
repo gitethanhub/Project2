@@ -31,7 +31,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "RedButtonWithStoneFrame",
+      "name": "HowToPlayButton",
       "persistentUuid": "565bb26d-dc83-404b-a8dd-cdbd07f83bb4",
       "width": 0,
       "x": 852,
@@ -47,7 +47,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "RedButtonWithStoneFrame2",
+      "name": "StartButton",
       "persistentUuid": "9149a25f-aca6-497f-881e-f221e2d6087e",
       "width": 0,
       "x": 47,
@@ -84,9 +84,42 @@
       "name": "Tutoral_Text",
       "persistentUuid": "b9dd4dd7-ed44-452d-812e-ebe2c1ffeea8",
       "width": 1182,
-      "x": 3,
-      "y": 11,
+      "x": 5,
+      "y": 14,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Mouse",
+      "persistentUuid": "64970dbd-68fd-419b-8561-720d7628e465",
+      "width": 0,
+      "x": 769,
+      "y": 258,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 217,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Mouse_Arrow",
+      "persistentUuid": "2e154d47-e0b4-4d9a-aeec-94b32cc51ee7",
+      "width": 205,
+      "x": 868,
+      "y": 207,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -138,7 +171,7 @@
     },
     {
       "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
-      "name": "RedButtonWithStoneFrame",
+      "name": "HowToPlayButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Red Button With Stone Frame",
       "variables": [],
@@ -151,7 +184,7 @@
         "BottomPadding": 0,
         "TopPadding": 0,
         "HoveredFadeOutDuration": 0.2,
-        "LabelText": "Tutorial"
+        "LabelText": "How To Play"
       }
     },
     {
@@ -199,7 +232,7 @@
     },
     {
       "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
-      "name": "RedButtonWithStoneFrame2",
+      "name": "StartButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Red Button With Stone Frame",
       "variables": [],
@@ -214,6 +247,487 @@
         "HoveredFadeOutDuration": 0.2,
         "LabelText": "Start"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "635ac7bc70c62a0d4dce3c966b84fc945f2ab47810c28c08b29ab59ba897793d",
+      "name": "Mouse",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Mouse",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mouse_Mouse.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 4
+                      },
+                      {
+                        "x": 84,
+                        "y": 4
+                      },
+                      {
+                        "x": 84,
+                        "y": 96
+                      },
+                      {
+                        "x": 16,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left Key",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mouse_Left Key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 4
+                      },
+                      {
+                        "x": 84,
+                        "y": 4
+                      },
+                      {
+                        "x": 84,
+                        "y": 96
+                      },
+                      {
+                        "x": 16,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Middle Key",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mouse_Middle Key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 4
+                      },
+                      {
+                        "x": 84,
+                        "y": 4
+                      },
+                      {
+                        "x": 84,
+                        "y": 96
+                      },
+                      {
+                        "x": 16,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Right Key",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mouse_Right Key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 4
+                      },
+                      {
+                        "x": 84,
+                        "y": 4
+                      },
+                      {
+                        "x": 84,
+                        "y": 96
+                      },
+                      {
+                        "x": 16,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mouse_Arrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Mouse Animation",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 52
+                      },
+                      {
+                        "x": 16,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 52
+                      },
+                      {
+                        "x": 16,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 52
+                      },
+                      {
+                        "x": 16,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 52
+                      },
+                      {
+                        "x": 16,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 52
+                      },
+                      {
+                        "x": 16,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 52
+                      },
+                      {
+                        "x": 16,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 52
+                      },
+                      {
+                        "x": 16,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -226,10 +740,16 @@
         "objectName": "Tutoral_Text2"
       },
       {
-        "objectName": "RedButtonWithStoneFrame"
+        "objectName": "HowToPlayButton"
       },
       {
-        "objectName": "RedButtonWithStoneFrame2"
+        "objectName": "StartButton"
+      },
+      {
+        "objectName": "Mouse"
+      },
+      {
+        "objectName": "Mouse_Arrow"
       }
     ]
   },
@@ -272,7 +792,23 @@
             "value": "Cache"
           },
           "parameters": [
-            "RedButtonWithStoneFrame2"
+            "StartButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Mouse"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Mouse_Arrow"
           ]
         }
       ]
@@ -297,7 +833,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "RedButtonWithStoneFrame",
+            "HowToPlayButton",
             ""
           ]
         }
@@ -325,7 +861,25 @@
             "value": "Montre"
           },
           "parameters": [
-            "RedButtonWithStoneFrame2",
+            "Mouse",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Mouse_Arrow",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "StartButton",
             ""
           ]
         },
@@ -334,7 +888,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "RedButtonWithStoneFrame"
+            "HowToPlayButton"
           ]
         },
         {
@@ -345,8 +899,95 @@
             "",
             "Assets\\SoundEffects\\Click_Sound.wav",
             "",
-            "25",
+            "15",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "HowToPlayButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Mouse",
+            "Animation",
+            "=",
+            "\"Mouse\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "Mouse",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Mouse",
+            "Animation",
+            "=",
+            "\"Left Key\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "Mouse",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Mouse",
+            "Animation",
+            "=",
+            "\"Mouse\""
           ]
         }
       ]
@@ -359,7 +1000,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "RedButtonWithStoneFrame2",
+            "StartButton",
             ""
           ]
         }
@@ -383,11 +1024,16 @@
             "",
             "Assets\\SoundEffects\\Click_Sound.wav",
             "",
-            "25",
+            "15",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -457,6 +1103,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
